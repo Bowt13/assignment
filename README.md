@@ -2,7 +2,7 @@ Assignment I made with [Create React App](https://github.com/facebookincubator/c
 
 ## Table of Contents
 
-- [App.js](https://github.com/Bowt13/assignment/blob/master/src/App.jss)
+- [App.js](https://github.com/Bowt13/assignment/blob/master/src/App.js)
 - [App.css](https://github.com/Bowt13/assignment/blob/master/src/App.css)
 - [HeaderBlock.js](https://github.com/Bowt13/assignment/blob/master/src/components/HeaderBlock.js)
 - [HeaderBlock.css](https://github.com/Bowt13/assignment/blob/master/src/components/HeaderBlock.css)

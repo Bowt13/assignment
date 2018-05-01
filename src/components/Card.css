@@ -1,0 +1,409 @@
+@keyframes card_grow {
+  0% {
+    height: 487px;
+    margin-top: 33px;
+  }
+  100% {
+    height: 520px;
+    margin-top: 0px;
+  }
+}
+
+@keyframes card_ungrow {
+  0% {
+    height: 520px;
+    margin-top: 0px;
+  }
+  100% {
+    height: 487px;
+    margin-top: 33px;
+  }
+}
+
+@keyframes picture_grow {
+  0% {
+    height: 111px;
+  }
+  100% {
+    height: 144px;
+  }
+}
+
+@keyframes picture_ungrow {
+  0% {
+    height: 144px;
+  }
+  100% {
+    height: 111px;
+  }
+}
+
+.body-card {
+  position: relative;
+  overflow: hidden;
+  vertical-align: bottom;
+  display: inline-block;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 11px;
+  margin-bottom: 33px;
+  width: 297px;
+  height: 487px;
+  background: #F9FCFD;
+  border: 1px solid #DAE2E5;
+  border-radius: 4px;
+}
+
+.current {
+  height: 520px;
+  background: #FFFFFF;
+  border: 1px solid #0099DC;
+  box-shadow: 0 1px 8px 0 #CCCECE;
+  margin-top: 0px;
+  animation: card_grow 0.2s;
+}
+
+.uncurrent {
+  margin-top: 33px;
+  animation: card_ungrow 0.2s;
+}
+
+.card-image-uncurrent {
+  position: relative;
+  float: left;
+  width: 101%;
+  height: 111px;
+  animation: picture_ungrow 0.2s;
+  margin-bottom: 30px;
+}
+
+.card-image-1 {
+  position: relative;
+  float: left;
+  width: 101%;
+  height: 111px;
+  margin-bottom: 30px;
+}
+
+.card-image-current {
+  position: relative;
+  float: left;
+  width: 101%;
+  height: 144px;
+  animation: picture_grow 0.2s;
+  margin-bottom: 30px;
+}
+
+.card-header {
+  margin-left: 24px;
+  font-family: Dax-Bold;
+  font-size: 21px;
+  color: #666666;
+  line-height: 24px;
+}
+
+.card-body {
+  margin-left: 24px;
+  margin-right: 20px;
+  font-family: Dax-Regular;
+  font-size: 16px;
+  color: #9B9B9B;
+  line-height: 24px;
+}
+
+.card-bottom {
+  position: absolute;
+  bottom: 5px;
+}
+
+.card-pricing {
+  margin-left: 24px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #9B9B9B;
+  letter-spacing: 0;
+  line-height: 0px;
+}
+
+.pricing-year {
+  font-family: Dax-Regular;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.price-year {
+  display: inline-block;
+  float: right;
+  margin-right: 25px;
+  font-family: Dax-Regular;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.price-year-euro {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  float: right;
+  margin-right: 4px;
+  font-family: Dax-regular;
+  font-size: 13px;
+  color: #666666;
+  letter-spacing: 0;
+}
+
+.pricing-month {
+  font-family: Dax-Medium;
+  display: inline-block;
+  position: relative;
+  top: 13px;
+}
+
+.price-month {
+  display: inline-block;
+  float: right;
+  margin-right: 25px;
+  font-family: Dax-Bold;
+  font-size: 24px;
+  color: #666666;
+  letter-spacing: 0;
+}
+
+.price-month-euro {
+  position: relative;
+  top: 8px;
+  display: inline-block;
+  float: right;
+  margin-right: 4px;
+  font-family: Dax-regular;
+  font-size: 18px;
+  color: #666666;
+  letter-spacing: 0;
+}
+
+.card-button {
+  margin-left: 24px;
+  width: 249px;
+  height: 43px;
+  background-image: linear-gradient(-180deg, #FFCE00 1%, #FBC600 100%);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.40);
+  border-radius: 4px;
+  font-family: Dax-Medium;
+  font-size: 18px;
+  color: #725A07;
+  letter-spacing: 0;
+  text-shadow: 1px 1px 1px rgba(255,239,67,0.40);
+}
+
+.card-footer {
+  text-align: center;
+  opacity: 0.74;
+  font-family: Dax-Medium;
+  font-size: 14px;
+  color: #007D46;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 918px) {
+  .body-card {
+    margin-left: calc((768px / 2)- (487px / 2));
+    width: 487px;
+    height: 487px;
+  }
+
+  .current {
+    height: 487px;
+    animation: none;
+  }
+
+  .uncurrent {
+    margin-top: 33px;
+    animation: none;
+  }
+
+  .card-image-uncurrent {
+    position: relative;
+    float: left;
+    width: 101%;
+    height: 144px;
+    animation: none;
+    margin-bottom: 30px;
+  }
+
+  .card-image-1 {
+    position: relative;
+    float: left;
+    width: 101%;
+    height: 144px;
+  }
+
+  .card-image-current {
+    position: relative;
+    float: left;
+    width: 101%;
+    height: 144px;
+    animation: none;
+  }
+
+  .card-button {
+    width: 80%;
+    margin-left: calc(15%);
+  }
+
+  .card-pricing {
+    margin-bottom: 40px
+  }
+
+  .price-year {
+    position: relative;
+    top: 0px;
+    left: 48px;
+  }
+
+  .price-year-euro {
+    position: relative;
+    top: 1px;
+    left: 48px;
+  }
+
+  .pricing-month {
+    top: 25px;
+    left: -144.5px;
+  }
+
+  .price-month {
+    position: relative;
+    top: 10px;
+    left: 32%;
+  }
+
+  .price-month-euro {
+    top: 18px;
+    left: 32%;
+  }
+
+  .card-footer {
+    margin-left: 11%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .body-card {
+    margin-left: 11px;
+    width: 297px;
+    height: 487px;
+  }
+
+  .current {
+    height: 520px;
+    animation: card_grow 0.2s;
+  }
+
+  .uncurrent {
+    margin-top: 33px;
+    animation: card_ungrow 0.2s;
+  }
+
+  .card-image-uncurrent {
+    position: relative;
+    float: left;
+    width: 101%;
+    height: 111px;
+    animation: picture_ungrow 0.2s;
+    margin-bottom: 30px;
+  }
+
+  .card-image-1 {
+    position: relative;
+    float: left;
+    width: 101%;
+    height: 111px;
+    margin-bottom: 30px;
+  }
+
+  .card-image-current {
+    position: relative;
+    float: left;
+    width: 101%;
+    height: 144px;
+    animation: picture_grow 0.2s;
+    margin-bottom: 30px;
+  }
+
+  .card-header {
+    margin-left: 24px;
+    font-family: Dax-Bold;
+    font-size: 21px;
+    color: #666666;
+    line-height: 24px;
+  }
+
+  .card-body {
+    margin-left: 24px;
+    margin-right: 20px;
+    font-family: Dax-Regular;
+    font-size: 16px;
+    color: #9B9B9B;
+    line-height: 24px;
+  }
+
+  .card-bottom {
+    position: absolute;
+    bottom: 5px;
+  }
+
+  .card-pricing {
+    margin-bottom: 20px
+  }
+
+  .pricing-year {
+    display: inline-block;
+    margin-right: 0px;
+  }
+
+  .price-year {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .price-year-euro {
+    position: relative;
+    top: 1px;
+    left: 0px;
+  }
+
+  .pricing-month {
+    top: 30px;
+    left: -45px;
+  }
+
+  .price-month {
+    position: relative;
+    top: -10px;
+    left: 0px;
+  }
+
+  .price-month-euro {
+    top: -2px;
+    left: 0px;
+  }
+
+  .card-button {
+    width: 80%;
+    margin-left: calc(10%);
+  }
+
+  .card-footer {
+    position: relative;
+    left: -10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .body-card {
+    margin-left: 0px;
+  }
+}

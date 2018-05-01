@@ -1,0 +1,8 @@
+
+//FONT//
+@font-face {font-family:'bebas-neue'; src:url('fonts/bebas-neue.eot'); src:url('font/bebas-neue.eot?#iefix') format('embedded-opentype'), url('font/bebas-neue.woff') format('woff'), url('font/bebas-neue.ttf') format('truetype'), url('font/bebas-neue.svg#bebas_neueregular') format('svg'); font-weight:normal; font-style:normal}
+@font-face {font-family:'ff-dax-web'; src:url('fonts/dax-light.eot'); src:url('font/dax-light.eot#iefix') format('embedded-opentype'), url('font/dax-light.woff') format('woff'); font-weight:300; font-style:normal}
+@font-face {font-family:'ff-dax-web'; src:url('fonts/dax-normal.eot'); src:url('font/dax-normal.eot#iefix') format('embedded-opentype'), url('font/dax-normal.woff') format('woff'); font-weight:400; font-style:normal}
+@font-face {font-family:'ff-dax-web'; src:url('fonts/dax-medium.eot'); src:url('font/dax-medium.eot#iefix') format('embedded-opentype'), url('font/dax-medium.woff') format('woff'); font-weight:600; font-style:normal}
+@font-face {font-family:'ff-dax-web'; src:url('fonts/dax-bold.eot'); src:url('font/dax-bold.eot#iefix') format('embedded-opentype'), url('font/dax-bold.woff') format('woff'); font-weight:700; font-style:normal}
+@font-face {font-family:'felt-tip-roman'; src:url('fonts/felt-tip-roman.eot'); src:url('font/felt-tip-roman.eot?#iefix') format('embedded-opentype'), url('font/felt-tip-roman.woff') format('woff'), url('font/felt-tip-roman.ttf') format('truetype'); font-weight:normal; font-style:normal}

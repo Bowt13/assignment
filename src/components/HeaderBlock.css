@@ -1,0 +1,207 @@
+.header-input {
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  border-radius: 3px;
+  height: 43px;
+  margin-left: 6.66px;
+  display: inline-block;
+  font-family: Dax-Medium;
+  color: #4A4A4A;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.icon {
+  position: relative;
+  top: -10px;
+  font-family: icons;
+  color: #007D46;
+  font-size: 21px;
+  margin-left: 8px;
+  margin-top: 20px;
+  max-width: 10px;
+  display: inline-block;
+  float: left;
+}
+
+.bigger {
+  font-size: 40px;
+  margin-top: 37px;
+  top: -39px;
+  left: -10;
+}
+
+.header-label {
+  position: relative;
+  margin-left: 25px;
+  margin-top: 13px;
+  display: inline-block;
+  float: left;
+}
+
+.header-label-input {
+  cursor: pointer;
+  position: relative;
+  font-family: Dax-Medium;
+  font-size: 16px;
+  margin-top: 13px;
+  color: #4A4A4A;
+  margin-left: 30px;
+  border: 0px;
+  display: inline-block;
+  width: 76px;
+  float: left;
+}
+
+
+.icon-tag {
+  font-family: icons;
+  margin-left: 8px;
+  max-width: 10px;
+  float: right;
+  margin-right: 6.66px;
+  margin-top: 13px;
+  display: inline-block;
+}
+
+.label-tag {
+  font-family: Dax-Regular;
+  font-size: 14px;
+  color: #9B9B9B;
+  float: right;
+  margin-right: 6.66px;
+  margin-top: 13px;
+  display: inline-block;
+}
+
+.postcode {
+  margin-left: 30.45vw;
+  width: 126.5px;
+}
+
+.bewoners {
+  width: 184.3px;
+}
+
+.kWh {
+  width: 159.8px;
+}
+
+.m3 {
+  width: 159.8px;
+}
+
+.button {
+  text-align: center;
+  width: 184.3px;
+  border: 0px;
+  background: #007D46;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.true {
+  cursor: default;
+  opacity: 0.47;
+}
+
+@media screen and (max-width: 1208px) {
+  .postcode {
+    margin-left: 10.45vw;
+    width: 126.5px;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  .postcode {
+    margin-left: 7.45vw;
+  }
+
+  .button {
+    position: relative;
+    top: 23px;
+    display: inline-block;
+    float: right;
+    margin-right: calc(50vw - (184.3px / 2));
+    text-align: center;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 696px) {
+  .kWh {
+    margin-top: 6.66px;
+    margin-left: 7.45vw;
+    z-index: 0;
+  }
+
+  .bewoners {
+    width: 193.3px;
+  }
+
+  .m3 {
+    z-index: 0;
+  }
+
+  .button {
+    position: relative;
+    top: 40px;
+    display: inline-block;
+    float: right;
+    margin-right: calc(50vw - (184.3px / 2));
+    text-align: center;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .button {
+    width: 80%;
+    margin-right: calc(50vw - 40%);
+    text-align: center;
+    z-index: 0;
+  }
+  .header-label {
+    margin-left: 28%;
+  }
+}
+
+@media screen and (max-width: 352px) {
+
+  .header-label {
+    margin-left: 25%;
+  }
+
+  .postcode {
+    margin-left: calc(50% - (184.3px / 2));
+    width: 184.3px;
+  }
+
+  .bewoners {
+    margin-top: 30px;
+    margin-left: calc(50% - (184.3px / 2));
+    width: 184.3px;
+  }
+
+  .kWh {
+    margin-top: 30px;
+    margin-left: calc(50% - (184.3px / 2));
+    width: 184.3px;
+  }
+
+  .m3 {
+    margin-top: 30px;
+    margin-left: calc(50% - (184.3px / 2));
+    width: 184.3px;
+  }
+
+  .button {
+    width: 80%;
+    margin-right: calc(50% - 40%);
+    text-align: center;
+    z-index: 0;
+  }
+}
